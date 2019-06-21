@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:padding="6dip" >
+
+    <ImageView
+            android:id="@+id/imgBurcSembol"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginStart="6dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+            android:id="@+id/tvBurcTarih"
+            android:layout_width="fill_parent"
+            android:layout_height="26dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/imgBurcSembol"
+            android:ellipsize="marquee"
+            android:text="Description"
+            android:textSize="12sp" android:singleLine="true"/>
+
+    <TextView
+            android:id="@+id/tvBurcAdi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tvBurcAdi"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toEndOf="@id/imgBurcSembol"
+            android:gravity="center_vertical"
+            android:text="Example application"
+            android:textSize="16sp" />
+
+</RelativeLayout>
