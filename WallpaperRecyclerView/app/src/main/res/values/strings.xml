@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WallpaperRecyclerView</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="delete_image">delete_image</string>
+    <string name="add_image">add_image</string>
+    <string name="image">image</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="vertical_layout">Vertical Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="staggared_layout">Staggared Layout</string>
+    <string name="staggared_horizental">Staggared Horizental</string>
+    <string name="staggared_vertical">Staggared Vertical</string>
+    <string name="grid">Grid</string>
+</resources>

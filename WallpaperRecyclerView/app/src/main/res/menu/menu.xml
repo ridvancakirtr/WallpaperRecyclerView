@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menuLinearViewHorizontal" android:title="@string/linear_layout" app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/menuLinearViewVertical" android:title="@string/vertical_layout" app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/menuGrid" android:title="@string/grid" app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/staggaredHorizental" android:title="@string/staggared_horizental" app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/staggaredVertical" android:title="@string/staggared_vertical" app:showAsAction="never">
+
+    </item>
+
+</menu>
