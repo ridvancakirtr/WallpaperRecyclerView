@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ad_n_z_giriniz">Adınızı Giriniz</string>
+    <string name="tamam">Tamam</string>
+    <string name="vazge">Vazgeç</string>
+    <string name="todo">TODO</string>
+</resources>
